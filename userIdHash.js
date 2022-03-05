@@ -2,7 +2,7 @@
 function hash(string) {
   return string.split('')
                .map(char => char.charCodeAt())
-               .reduce((num, sum) => sum + num, 0);
+               .reduce((sum, num) => sum + num, 0);
 }
 
 // take a userId (string) and a rollout % (integer between 0 and 100)
