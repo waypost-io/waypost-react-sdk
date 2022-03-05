@@ -4,9 +4,9 @@ const userInRollout = require('./userIdHash');
 const WAYPOST_API_ADDRESS = "http://localhost:5000/";
 
 class Client {
-  constructor(config, context=undefined) {
+  constructor(config) {
     this.config = config;
-    this.context = context;
+    this.context = undefined;
     this.featureFlags = {};
   }
 
