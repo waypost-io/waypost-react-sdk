@@ -5,7 +5,7 @@ function hash(string) {
                .reduce((num, sum) => sum + num, 0);
 }
 
-// take a user (string) and a rollout % (integer between 0 and 100)
+// take a userId (string) and a rollout % (integer between 0 and 100)
 // and outputs a bool, whether the user is in the rollout or not
 function userInRollout(userId, rollout) {
   if (typeof rollout !== 'number' || rollout < 0 || rollout > 100) {
