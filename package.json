@@ -1,0 +1,23 @@
+{
+  "name": "sdk-javascript-client-side",
+  "version": "1.0.0",
+  "description": "Waypost's SDK for client-side web applications",
+  "main": "Config.js",
+  "scripts": {
+    "start": "node test.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/waypost-io/sdk-javascript-client-side.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/waypost-io/sdk-javascript-client-side/issues"
+  },
+  "homepage": "https://github.com/waypost-io/sdk-javascript-client-side#readme",
+  "dependencies": {
+    "axios": "^0.26.0"
+  }
+}

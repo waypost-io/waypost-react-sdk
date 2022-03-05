@@ -14,3 +14,5 @@ function userInRollout(userId, rollout) {
   const hashedUserId = hash(userId);
   return hashedUserId % 100 < rollout;
 }
+
+module.exports = userInRollout;
