@@ -1,8 +1,6 @@
 const axios = require('axios');
 const userInRollout = require('./userIdHash');
 
-const WAYPOST_API_ADDRESS = "http://localhost:5000/";
-
 class Client {
   constructor(config) {
     this.config = config;
@@ -30,7 +28,7 @@ class Client {
   }
 
   async poll() {
-    const res = await axios.get(`${WAYPOST_API_ADDRESS}api/flags?sdk_key=${this.config.sdkKey}`);
+    const res = await axios.get(`${this.config.api_address}/api/flags?sdk_key=${this.config.sdkKey}`);
     res.data.forEach(flag => {
       this.featureFlags[flag.name] = flag;
     });
