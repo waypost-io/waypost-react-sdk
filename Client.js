@@ -37,7 +37,7 @@ class Client {
   }
 
   // defaultVal is a boolean
-  getFeature(featureName, defaultVal) {
+  evaluateFlag(featureName, defaultVal) {
     const featureData = this.featureFlags[featureName];
 
     if (featureData === undefined) {
