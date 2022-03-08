@@ -1,4 +1,8 @@
 # Waypost Client-Side SDK for JavaScript
-Waypost's SDK for client-side web applications
+This is Waypost's SDK for React web applications.
 
-Run `npm run start` to run the `test.js` file
+To run the simple test (does NOT cover all test cases), run `npm run start` to run the `test.js` file.
+
+For testing in React apps, remember to run `npm run build` for Webpack bundling, then run `npm pack` to package into a Tarball so that it can be imported as a node module.
+It can then be imported in other apps via `npm install {filepath}/waypost-sdk-react`.
+
