@@ -4,7 +4,7 @@
   "description": "Waypost's SDK for client-side web applications",
   "main": "dist/main.js",
   "scripts": {
-    "start": "node ./tests/simpleTest.js",
+    "test": "node ./tests/simpleTest.js",
     "build": "webpack --mode production",
     "eject": "react-scripts eject"
   },
