@@ -21,7 +21,6 @@
   "homepage": "https://github.com/waypost-io/sdk-javascript-client-side#readme",
   "dependencies": {
     "axios": "^0.26.0",
-    "react": "^17.0.2",
     "react-scripts": "^5.0.0"
   },
   "devDependencies": {
@@ -32,6 +31,9 @@
     "webpack": "^5.70.0",
     "webpack-cli": "^4.9.2",
     "webpack-dev-server": "^4.7.4"
+  },
+  "peerDependencies": {
+    "react": "^17.0.2"
   },
   "babel": {
     "presets": [
