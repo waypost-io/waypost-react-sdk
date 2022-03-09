@@ -2,9 +2,7 @@ const Config = require('../lib/Config.js');
 
 let sdkClient;
 (async () => {
-  sdkClient = await new Config('12345', "http://localhost:5000", 1000).connect();
-  // console.log(config);
-  // sdkClient = config.client;
+  sdkClient = await new Config('12345', "http://localhost:5000").connect();
 })();
 // sdkClient.addContext({ userId: "abcde" });
 
