@@ -1,10 +1,7 @@
 # Waypost Client-Side SDK for JavaScript
-## Internal instructions
-For testing in React apps, remember to run `npm run build` for Webpack bundling, then run `npm pack` to package into a Tarball so that it can be imported as a node module.
-It can then be imported in other apps via `npm install {filepath}/waypost-sdk-react`.
 # Official Usage Docs
 This is Waypost's SDK for React web applications.
-1. Install via `npm install waypost-sdk-react`
+1. Install via `npm install waypost-sdk-react` (https://www.npmjs.com/package/waypost-sdk-react)
 2. Import the package at the top of your React application's `App.js` file.
   Inside the `Config` constructor, the first argument is your SDK Key that you can get from the Waypost feature flag manager UI. The second argument is the address of the Waypost flag provider service.
    See the example code below:
